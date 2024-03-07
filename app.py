@@ -9,7 +9,7 @@ BASE_URL = '/api/v1/'
 
 @app.route('/')
 def home():
-    return 'Welcome to my To-Do List'
+    return "<h1>Welcome to my first api deployment</h1>"
 
 @app.route('/api/v1/tasks', methods=['POST'])
 def create_task():
